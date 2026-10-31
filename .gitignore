@@ -1,0 +1,45 @@
+# ===== Large data (image datasets) =====
+data/
+data_final/
+data_multi/
+
+# ===== Model weights, checkpoints, pretrained binaries =====
+checkpoints_fc1/
+weights/
+*.pt
+*.ckpt
+*.bin
+*.pth
+
+# ===== Python =====
+__pycache__/
+*.pyc
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== WorkBuddy internal (never upload) =====
+.workbuddy/
+
+# ===== Logs & runtime outputs =====
+*.log
+logs/
+output/
+vis_*/
+
+# ===== A/B test result dumps =====
+ab_*.txt
+ab_*.log
+ab_*.py
+
+# ===== Software copyright materials (private docs) =====
+软著申报材料/
+
+# ===== Paper source (documentation, not code) =====
+paper_tcsvt/
+
+# ===== OS / misc =====
+.DS_Store
+Thumbs.db
+nul
